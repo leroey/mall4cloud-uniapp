@@ -31,12 +31,20 @@
 
     <!-- 导航 -->
     <view class="nav-box">
-      <view class="item" @tap="toNewProds">
+      <!-- <view class="item" @tap="toNewProds">
         <view class="icon">
           <image src="/static/images/icon-new.png" />
         </view>
         <view class="text">新品推荐</view>
-      </view>
+      </view> -->
+      <!-- <a href="https://shp.ee/iy3tsq9"> -->
+      <a class="item" href="https://shp.ee/iy3tsq9">
+        <view class="icon">
+          <image src="/static/images/icon-new.png" />
+        </view>
+        <view class="text">虾皮首页</view>
+      </a>
+      <!-- </a> -->
       <view class="item" @tap="notOpen('打折特惠')">
         <view class="icon">
           <image src="/static/images/icon-sale.png" />
