@@ -52,12 +52,18 @@
         <view class="text">亚马逊链接</view>
         
       </view>
-      <view class="item" @tap="notOpen('优惠团购')">
+      <!-- <view class="item" @tap="notOpen('优惠团购')">
         <view class="icon">
           <image src="/static/images/icon-group.png" />
         </view>
         <view class="text">优惠团购</view>
-      </view>
+      </view> -->
+      <a class="item" href="https://mobile.yangkeduo.com/duo_cms_mall.html?pid=31870987_239006348&cpsSign=CM_220211_31870987_239006348_214cfea03614d12d034946cae8935c24&range_items=1%3A1000%3A1000000%2C2%3A10%3A500&_x_ddjb_act=%7B%22st%22%3A%223%22%7D&duoduo_type=3&launch_pdd=1&campaign=ddjb&cid=launch_">
+        <view class="icon">
+          <image src="/static/images/icon-group.png" />
+        </view>
+        <view class="text">拼多多</view>
+      </a>
       <view class="item" @tap="notOpen('秒杀')">
         <view class="icon">
           <image src="/static/images/icon-flash.png" />
