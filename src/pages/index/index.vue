@@ -45,11 +45,12 @@
         <view class="text">虾皮首页</view>
       </a>
       <!-- </a> -->
-      <view class="item" @tap="notOpen('打折特惠')">
+      <view class="item">
         <view class="icon">
-          <image src="/static/images/icon-sale.png" />
+          <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=12&l=ur1&category=amazonfashion&banner=1TXZMXW7BGHQGYP8NMR2&f=ifr&linkID=bd0789f0f96b55dd5e4ac96de130906f&t=sharerarestor-20&tracking_id=sharerarestor-20" width="60" height="50" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
         </view>
-        <view class="text">打折特惠</view>
+        <view class="text">亚马逊链接</view>
+        
       </view>
       <view class="item" @tap="notOpen('优惠团购')">
         <view class="icon">
